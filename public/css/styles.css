@@ -1,0 +1,100 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:100,300,500,700);
+
+                
+
+#page-wrap { width: 400px; margin: 50px auto; padding: 20px; background: white; -moz-box-shadow: 0 0 20px black; -webkit-box-shadow: 0 0 20px black; box-shadow: 0 0 20px black; }
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  font-size: 18px;
+  background-color: #000;
+  color: #fff;
+}
+
+
+.wrapper {width:700px; height: 100%; margin: 100px 0px 0px 200px;}
+#logo {width:100px; float:left; margin-top:20px;}
+
+#box {
+  text-shadow: 0px 0px 0px #084e74;
+  width: 500px;
+  padding: 10px 20px 20px 30px;
+  border-left:1px solid #ccc;
+  float:right;
+   
+}
+a:link, a:visited, a:active {
+  color:#2ba0e3;
+  text-decoration: none;
+  border-bottom: dotted 1px gray;
+}
+
+
+p { text-align: left; margin: 0 30px 30px 0; width: 85%; }
+p.quote { font-size: 15px; text-align: left; margin: 30px 30px 30px 40px; color:#5a5a5a; width: 60%;}
+p.quote i { font-size: 25px; color: black;}
+p.quote b { background-color: black; font-weight: 100;}
+
+
+
+h1 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: .95;
+  text-transform: uppercase;
+  margin: 30px 0 0 0; 
+  
+}
+
+
+h1 i { font-style: normal; font-weight: 100;}
+
+h1.quote { font-size: 22px; text-align: left; margin: 30px 30px 30px 40px; width: 55%; font-weight: 600; margin: 80px 30px 60px 40px;}
+
+h2 {
+  line-height: .8;
+  font-size: 16px;
+  clear: both;
+  font-weight: normal;
+  display: block;
+  white-space: nowrap;
+}
+
+#links {font-size: 20px; margin: 40px 0 0 0; font-weight: 600;}
+
+
+a.button, a.button:visited  { color: black; font-weight: 600;}
+
+.button, .button:visited  {
+	border: 1px solid black;
+	margin: 20px 0 0 0;
+	padding: 12px 25px 12px 25px;
+	display: inline-block;
+  text-decoration: none;
+  line-height: 1;
+	-moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-box-shadow: 2px 2px 8px grey;
+  -webkit-box-shadow: 2px 2px 8px grey;
+  position: relative;
+  cursor: pointer;
+  color: #000;
+  background: #f2f5f6; /* Old browsers */
+background: -moz-linear-gradient(top, #f2f5f6 0%, #e3eaed 37%, #c8d7dc 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2f5f6), color-stop(37%,#e3eaed), color-stop(100%,#c8d7dc)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #f2f5f6 0%,#e3eaed 37%,#c8d7dc 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #f2f5f6 0%,#e3eaed 37%,#c8d7dc 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #f2f5f6 0%,#e3eaed 37%,#c8d7dc 100%); /* IE10+ */
+background: linear-gradient(top, #f2f5f6 0%,#e3eaed 37%,#c8d7dc 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f5f6', endColorstr='#c8d7dc',GradientType=0 ); /* IE6-9 */
+  font-size: 20px;
+  width: 210px;
+}
+
+.button:hover	{ color: white; background-color: #3d9df5; font-weight: 600;}
+.button:active { top: 2px; }
+
